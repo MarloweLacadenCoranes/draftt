@@ -1,0 +1,101 @@
+body {
+    background-image: url('Images/knowldee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+.header {
+    background-color: royalblue;
+    padding: 40px 0;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.black-rectangle {
+    background-color: black;
+    width: auto;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    padding: 15px;
+    color: white;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+h2, p, a {
+    border-radius: 15px;
+    background-color: navy;
+    width: 600px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: block;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+a:hover {
+    color: red;
+}
+
+.content {
+    padding: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    z-index: 2;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.image-container {
+    position: absolute;
+    top: 48%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.image-container img {
+    width: auto;
+    height: auto;
+}
+
+.happykids-container {
+    position: absolute;
+    top: 98%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.happykids-container img {
+    width: auto;
+    height: auto;
+}
+
+video {
+    border: 20px solid white;
+    margin-left: 20px;
+}
+
+a {
+    background-color: transparent;
+}
